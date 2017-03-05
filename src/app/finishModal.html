@@ -1,0 +1,11 @@
+<div class="modal-header">
+    <h3 class="modal-title">Su estacionamiento ha terminado</h3>
+</div>
+<div class="modal-body">
+    El total de su estacionamiento es de <h1 ng-bind="finishModal.total"></h1>
+    {{finishModal}}
+</div>
+<div class="modal-footer">
+    <button class="btn btn-primary" type="button" ng-click="$ctrl.ok()">OK</button>
+    <button class="btn btn-warning" type="button" ng-click="$ctrl.cancel()">Cancelar</button>
+</div>
